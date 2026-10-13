@@ -4,7 +4,7 @@ Fixes HearthBelow holes not closing when resetting or leveling with the PlanBuil
 
 ## 🟢 Install
 
-Download [1.0.0](https://github.com/VariantCreator/VariantHearthBelowReset/releases/download/v1.0.0/VariantHearthBelowReset-1.0.0-Hexium.zip). Install with your mod manager, or place `VariantHearthBelowReset.dll` in `BepInEx/plugins`.
+Download [1.0.1](https://github.com/VariantCreator/VariantHearthBelowReset/releases/download/v1.0.1/VariantHearthBelowReset-1.0.1-Hexium.zip). Install with your mod manager, or place `VariantHearthBelowReset.dll` in `BepInEx/plugins`.
 
 Install this patch on clients that use the terrain tools.
 
@@ -17,7 +17,7 @@ Cave restoration cannot be undone.
 
 ## 🟣 Mods
 
-Use BepInEx and HearthBelow. HearthBelow must be installed on the server and all clients.
+Use BepInEx and HearthBelow 0.7.0. HearthBelow must be installed on the server and all clients.
 
 Use either the **PlanBuild rune** or **World Edit Commands** terrain tools. **Infinity Hammer** uses World Edit Commands for its admin hoe. The integrations work separately; you do not need both. DigDeeper can stay installed.
 
@@ -34,7 +34,7 @@ Open `BepInEx/config/VariantMods.HearthBelowReset.cfg`.
 Add this line under your existing `allowed_mods:` list for this DLL:
 
 ```yaml
-  - VariantMods.HearthBelowReset|f39ec3a3522bc79e2dc5f703656e0f1dbd3be12a6159b35fb38d54fcfce55545
+  - VariantMods.HearthBelowReset|65e15e9bc51e4ae275f0aa5a60c47b6711dbd60e106aee118e68223596ac14c9
 ```
 
 </details>

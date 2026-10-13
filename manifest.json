@@ -1,7 +1,7 @@
 {
   "name": "VariantHearthBelowReset",
   "description": "Fixes HearthBelow holes not closing when resetting or leveling with the PlanBuild rune or admin hoe.",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/VariantCreator/VariantHearthBelowReset",
   "dependencies": []
 }
